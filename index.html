@@ -192,6 +192,29 @@
       background: linear-gradient(45deg, #e94560, #ff6b6b);
       color: white !important;
     }
+    .adsterra-ad{
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adsterra-ad iframe{
+    max-width: 100%;
+}
+
+    .adsterra-320x50{
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adsterra-320x50 iframe{
+    max-width: 100%;
+}
   </style>
 </head>
 <body>
@@ -202,7 +225,40 @@
     <div class="button-container">
       <button onclick="start()" style="background: linear-gradient(45deg, #ec8600 0%, #6b4997 100%)">শুরু করুন ▶️</button>
     </div>
+    <!-- একটু ফাঁকা জায়গা -->
+<div style="margin-top: 25px;"></div>
 
+<!-- Adsterra Ad -->
+<div class="ad-container">
+    <script>
+  atOptions = {
+    'key' : '743aa6298e1b851cf3a8e3de5e7635ab',
+    'format' : 'iframe',
+    'height' : 250,
+    'width' : 300,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/743aa6298e1b851cf3a8e3de5e7635ab/invoke.js"></script>
+</div>
+
+    <!-- Gap -->
+<div style="margin-top: 25px;"></div>
+
+<!-- Adsterra 320x100 Ad -->
+<div class="adsterra-320x50">
+    
+  <script>
+  atOptions = {
+    'key' : 'a88b031c9689803fb31e3af935c2fb44',
+    'format' : 'iframe',
+    'height' : 50,
+    'width' : 320,
+    'params' : {}
+  };
+</script>
+<script src="https://www.highperformanceformat.com/a88b031c9689803fb31e3af935c2fb44/invoke.js"></script>
+</div>
     <div class="progress-container" style="display:none;">
       <div class="progress-bar" style="width: 0%"></div>
     </div>
@@ -312,3 +368,4 @@
   </script>
 </body>
 </html>
+
